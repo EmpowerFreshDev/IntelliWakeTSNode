@@ -13,10 +13,10 @@
   "types": "dist/main.d.ts",
   "scripts": {
     "dev": "ts-node-dev --script-mode --respawn --transpile-only consoles/consoles.ts",
-    "prepare": "npm run build",
     "test": "vitest --config vitest.config.ts",
     "version:minor": "pnpm version minor",
-    "publish:local": "pnpm run build && pnpm version patch && git push --tags && git push"
+    "publish:local": "pnpm run build && pnpm version patch && git push --tags && git push",
+    "build": "vite build"
   },
   "files": [
     "dist"
