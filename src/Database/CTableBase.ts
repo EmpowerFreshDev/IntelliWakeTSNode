@@ -1,4 +1,4 @@
-import type {TObjectConstraint, TObjectFromFormDataOptions} from '@solidbasisventures/intelliwaketsfoundation'
+import type {TObjectConstraint, TObjectFromFormDataOptions} from '@empowerfresh/intelliwake'
 import {
 	CleanNumber,
 	ConstrainObject,
@@ -8,7 +8,7 @@ import {
 	PickProperty,
 	ReduceObjectToOtherKeys,
 	ToArray
-} from '@solidbasisventures/intelliwaketsfoundation'
+} from '@empowerfresh/intelliwake'
 import {PGSQL, TConnection} from './PGSQL/PGSQL'
 import {PGParams} from './PGSQL/PGParams'
 

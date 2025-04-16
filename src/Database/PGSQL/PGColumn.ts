@@ -1,5 +1,5 @@
 import {PGEnum} from './PGEnum'
-import {IsOn, ToArray} from '@solidbasisventures/intelliwaketsfoundation'
+import {IsOn, ToArray} from '@empowerfresh/intelliwake'
 
 export interface IPGColumn {
 	column_name: string

@@ -1,4 +1,11 @@
-# IntelliWakeTSFoundation
+# IntelliWakeTSNode
+
+> 🛠️ This is an **EmpowerFresh-maintained fork** of `@solidbasisventures/intelliwaketsnode`,  
+> forked from version `2.4.55` to allow app-specific enhancements and updates.  
+> We track upstream as needed but are no longer directly dependent on its release cycle.
+> 📦 This package is **not published to npm**. We consume it directly via GitHub.
+
+---
 
 IntelliwakeTSNode, short for the IntelliWake TypeScript Node Library provides multiple helper functions in a back-end
 node server that are not present in vanilla JavaScript.

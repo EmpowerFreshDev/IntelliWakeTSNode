@@ -1,4 +1,4 @@
-import {ReplaceAll} from '@solidbasisventures/intelliwaketsfoundation'
+import {ReplaceAll} from '@empowerfresh/intelliwake'
 
 /**
  * `PGParams` is a class responsible for managing and substituting placeholders in PostgreSQL queries.

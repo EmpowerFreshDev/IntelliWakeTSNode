@@ -1,46 +1,47 @@
 {
-	"name": "@solidbasisventures/intelliwaketsnode",
-	"version": "2.4.55",
-	"description": "NPM package for IntelliWake Node Components",
-	"type": "module",
-	"exports": {
-		".": {
-			"import": "./dist/main.js",
-			"require": "./dist/main.cjs"
-		}
-	},
-	"main": "dist/main.js",
-	"types": "dist/main.d.ts",
-	"scripts": {
-		"Vitest-Watch": "vitest --config vitest.config.ts",
-		"TSNodeDev": "ts-node-dev --script-mode --respawn --transpile-only consoles/consoles.ts",
-		"Install-IntelliWake": "pnpm install && pnpm update @solidbasisventures/intelliwaketsfoundation@latest",
-		"Version-Minor-Advance": "pnpm version minor",
-		"Build": "tsc && vite build",
-		"Publish": "tsc && vite build && pnpm version patch && git push --tags && git push && npm publish"
-	},
-	"files": [
-		"dist"
-	],
-	"author": "SolidBasisVentures",
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/SolidBasisVentures/IntelliWakeTSNode.git"
-	},
-	"devDependencies": {
-		"@solidbasisventures/intelliwaketsfoundation": "^5.12.55",
-		"@types/node": "^20.17.24",
-		"@types/pg": "^8.10.2",
-		"pg": "^8.11.1",
-		"pg-cursor": "^2.10.1",
-		"prettier": "^2.8.8",
-		"source-map-support": "^0.5.21",
-		"ts-node": "^10.9.2",
-		"ts-node-dev": "^2.0.0",
-		"typescript": "^5.8.2",
-		"vite": "^5.4.14",
-		"vite-plugin-dts": "^4.5.3",
-		"vitest": "^3.0.9"
-	}
+  "name": "@empowerfresh/intelliwake-node",
+  "version": "1.0.0",
+  "description": "EmpowerFresh fork of IntelliWake Node Components",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/main.js",
+      "require": "./dist/main.cjs"
+    }
+  },
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "dev": "ts-node-dev --script-mode --respawn --transpile-only consoles/consoles.ts",
+    "build": "tsc && vite build",
+    "prepare": "npm run build",
+    "postinstall": "npm run build",
+    "test": "vitest --config vitest.config.ts",
+    "version:minor": "pnpm version minor",
+    "publish:local": "pnpm run build && pnpm version patch && git push --tags && git push"
+  },
+  "files": [
+    "dist"
+  ],
+  "author": "EmpowerFresh Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EmpowerFreshDev/IntelliWakeTSNode.git"
+  },
+  "devDependencies": {
+    "@empowerfresh/intelliwake": "github:EmpowerFreshDev/IntelliWakeTSFoundation#main",
+    "@types/node": "^20.17.24",
+    "@types/pg": "^8.10.2",
+    "pg": "^8.11.1",
+    "pg-cursor": "^2.10.1",
+    "prettier": "^2.8.8",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2",
+    "vite": "^5.4.14",
+    "vite-plugin-dts": "^4.5.3",
+    "vitest": "^3.0.9"
+  }
 }

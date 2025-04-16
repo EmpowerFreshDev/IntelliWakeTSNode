@@ -1,5 +1,5 @@
 import {PGTable} from './PGTable'
-import {GreaterNumber} from '@solidbasisventures/intelliwaketsfoundation'
+import {GreaterNumber} from '@empowerfresh/intelliwake'
 
 export class PGIndex {
 	public columns: string[] = []

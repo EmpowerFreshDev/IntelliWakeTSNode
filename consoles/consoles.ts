@@ -1,4 +1,4 @@
-import {ESTTodayDateTimeLabel} from '@solidbasisventures/intelliwaketsfoundation'
+import {ESTTodayDateTimeLabel} from '@empowerfresh/intelliwake'
 import {KeyboardKey} from '../src/Functions'
 
 

@@ -12,7 +12,7 @@ import {
 	IsWholeNumber,
 	ReplaceAll,
 	ToDigits
-} from '@solidbasisventures/intelliwaketsfoundation'
+} from '@empowerfresh/intelliwake'
 import {PGTable} from './PGTable'
 import {PGColumn} from './PGColumn'
 import {PGParams} from './PGParams'

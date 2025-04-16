@@ -1,4 +1,4 @@
-import {ToPascalCase, ToSnakeCase} from '@solidbasisventures/intelliwaketsfoundation'
+import {ToPascalCase, ToSnakeCase} from '@empowerfresh/intelliwake'
 
 export class PGEnum {
 	public enumName = ''
