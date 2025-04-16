@@ -1,4 +1,4 @@
-import {CleanNumber, IPaginatorRequest, IPaginatorResponse} from '@solidbasisventures/intelliwaketsfoundation'
+import {CleanNumber, IPaginatorRequest, IPaginatorResponse} from '@empowerfresh/intelliwake'
 
 /**
  * Creates a paginated response from a request count.

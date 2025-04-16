@@ -13,7 +13,7 @@ import {
 	TObjectConstraint,
 	TObjectFieldConstraint,
 	YYYY_MM_DD_HH_mm_ss
-} from '@solidbasisventures/intelliwaketsfoundation'
+} from '@empowerfresh/intelliwake'
 import {PGEnum} from './PGEnum'
 
 export const TS_EOL = '\n' // was \r\n
@@ -270,7 +270,7 @@ export class PGTable {
 		}
 
 		if (options?.includeConstraint) {
-			text += `import type {${AddSpaceImport('TObjectConstraint')}} from ${AddQuote(`@solidbasisventures/intelliwaketsfoundation`)}${TS_EOL}`
+			text += `import type {${AddSpaceImport('TObjectConstraint')}} from ${AddQuote(`@empowerfresh/intelliwake`)}${TS_EOL}`
 		}
 
 		if (this.inherits.length > 0) {

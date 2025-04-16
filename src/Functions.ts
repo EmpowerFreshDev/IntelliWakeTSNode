@@ -1,5 +1,5 @@
 import readline from 'readline'
-// import { GreaterNumber, Sleep } from '@solidbasisventures/intelliwaketsfoundation'
+// import { GreaterNumber, Sleep } from '@empowerfresh/intelliwake'
 // import {Readable} from 'node:stream'
 
 /**

@@ -1,5 +1,5 @@
 import {PGParams} from './PGParams'
-import {SearchTerms} from '@solidbasisventures/intelliwaketsfoundation'
+import {SearchTerms} from '@empowerfresh/intelliwake'
 
 export const PGWhereSearchClause = (search: string | null | undefined, params: PGParams, fields: string[], startWithAnd = true): string => {
 	let where = ''

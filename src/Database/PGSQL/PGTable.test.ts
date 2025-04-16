@@ -153,7 +153,7 @@ test('PGTable', () => {
 
 	// console.info(tsTest)
 
-	expect(tsTest.includes('import type {TObjectConstraint} from "@solidbasisventures/intelliwaketsfoundation"')).toBeTruthy()
+	expect(tsTest.includes('import type {TObjectConstraint} from "@empowerfresh/intelliwake"')).toBeTruthy()
 	expect(tsTest.includes('import {ETest} from "../Enums/ETest"')).toBeTruthy()
 	expect(tsTest.includes('import {ITest} from "../Interfaces/ITest"')).toBeTruthy()
 	expect(tsTest.includes('import {TTest} from "../Types/TTest"')).toBeTruthy()
@@ -168,7 +168,7 @@ test('PGTable', () => {
 
 	// console.info(tsTest)
 
-	expect(tsTest.includes('import type { TObjectConstraint } from \'@solidbasisventures/intelliwaketsfoundation\'')).toBeTruthy()
+	expect(tsTest.includes('import type { TObjectConstraint } from \'@empowerfresh/intelliwake\'')).toBeTruthy()
 	expect(tsTest.includes('import { ETest } from \'../Enums/ETest\'')).toBeTruthy()
 	expect(tsTest.includes('import { ITest } from \'../Interfaces/ITest\'')).toBeTruthy()
 	expect(tsTest.includes('import { TTest } from \'../Types/TTest\'')).toBeTruthy()
